@@ -11,3 +11,4 @@ install_manifest.txt
 **/build/
 cmake-build-debug/
 .vscode
+*.cmake

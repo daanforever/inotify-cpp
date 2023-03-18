@@ -3,7 +3,7 @@
 #if __cplusplus >= 201703L && !defined(USE_BOOST_FILESYSTEM)
 
 #include <filesystem>
-#include <optional>
+#include <boost/optional>
 
 namespace inotifypp
 {
@@ -32,7 +32,8 @@ namespace inotifypp
     template<typename T>
     using optional = boost::optional<T>;
 
-    inline constexpr boost::none_t nullopt() { return boost::none; };
+    // inline constexpr boost::none_t nullopt() { return boost::none; };
+    inline boost::none_t nullopt() { return boost::none; };
 }
 
 #endif

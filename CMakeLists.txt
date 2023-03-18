@@ -7,7 +7,7 @@ endif()
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 option(BUILD_EXAMPLE "Build inotify-cpp example program" ON)
-option(BUILD_TEST "Build inotify-cpp unittest program" ON)
+option(BUILD_TEST "Build inotify-cpp unittest program" OFF)
 option(BUILD_SHARED_LIBS "Build inotify-cpp as a shared library" ON)
 option(BUILD_STATIC_LIBS "Build inotify-cpp as a static library" OFF)
 option(USE_BOOST_FILESYSTEM "Build with boost::filesystem" OFF)
