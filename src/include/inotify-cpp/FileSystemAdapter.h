@@ -3,7 +3,7 @@
 #if __cplusplus >= 201703L && !defined(USE_BOOST_FILESYSTEM)
 
 #include <filesystem>
-#include <boost/optional>
+#include <boost/optional.hpp>
 
 namespace inotifypp
 {
